@@ -1,13 +1,8 @@
-/* Общи стилове */
-
-
-
 
  html {
             scroll-behavior: smooth;
         }
-        
-        /* CSS за форма без JavaScript */
+       
         .form-success {
             display: none;
             background-color: #d4edda;
@@ -18,7 +13,7 @@
             border: 1px solid #c3e6cb;
         }
         
-        /* Показване на съобщение при фокус на формата */
+    
         #contactForm:focus-within + .form-success {
             display: block;
         }
@@ -32,15 +27,15 @@
 }
  
 body {
-    background-color: #f9f7ff; /* Много светъл лилав фон */
-    color: #333344; /* Тъмносив/лилав текст */
+    background-color: #f9f7ff; 
+    color: #333344; 
     line-height: 1.6;
 }
  
-/* Плавно скролиране с чист CSS */
+/* Скрол */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px; /* Отстъп за фиксираното меню */
+    scroll-padding-top: 80px; 
 }
  
 .container {
@@ -55,7 +50,7 @@ html {
  
 /* Хедър и навигация */
 header {
-    background-color: #6b46c1; /* Лилав цвят като на снимките */
+    background-color: #6b46c1; 
     color: white;
     padding: 12px 0;
     box-shadow: 0 2px 10px rgba(107, 70, 193, 0.2);
@@ -79,7 +74,7 @@ header {
  
 .logo i {
     margin-right: 10px;
-    color: #f6e05e; /* Жълт акцент */
+    color: #f6e05e; 
 }
  
 nav ul {
@@ -106,20 +101,20 @@ nav ul li a {
 nav ul li a i {
     margin-right: 6px;
     font-size: 14px;
-    color: #f6e05e; /* Жълти икони */
+    color: #f6e05e; 
 }
  
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.15);
-    color: #f6e05e; /* Жълт при ховър */
+    color: #f6e05e; 
 }
  
 nav ul li a.active {
-    background-color: #553c9a; /* По-тъмно лилаво за активен линк */
-    color: #f6e05e; /* Жълт текст за активен линк */
+    background-color: #553c9a; 
+    color: #f6e05e; 
 }
  
-/* Херо секция */
+
 .hero {
     background-image: linear-gradient(rgba(107, 70, 193, 0.85), rgba(85, 60, 154, 0.9)), url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
@@ -141,23 +136,36 @@ nav ul li a.active {
     font-size: 20px;
     max-width: 800px;
     margin: 0 auto;
-    color: #fef3c7; /* Светло жълт текст */
+    color: #fef3c7; 
 }
- 
+
+
+
+
 /* Основно съдържание */
+
+
+
+
+
 .content-section {
     margin-bottom: 60px;
 }
  
 .section-title {
-    color: #6b46c1; /* Лилав цвят за заглавия */
-    border-bottom: 3px solid #f6e05e; /* Жълта долна линия */
+    color: #6b46c1; 
+    border-bottom: 3px solid #f6e05e; 
     padding-bottom: 10px;
     margin-bottom: 30px;
     font-size: 32px;
 }
+
+
  
 /* Бързи линкове */
+
+
+
 .quick-links-section {
     margin-top: 30px;
 }
@@ -185,26 +193,32 @@ nav ul li a.active {
 .quick-link-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(107, 70, 193, 0.2);
-    border-color: #f6e05e; /* Жълта рамка при ховър */
-    color: #6b46c1; /* Лилав текст при ховър */
+    border-color: #f6e05e;
+    color: #6b46c1; 
 }
  
 .quick-link-card i {
     font-size: 40px;
     margin-bottom: 15px;
-    color: #6b46c1; /* Лилави икони */
+    color: #6b46c1; 
 }
  
 .quick-link-card:hover i {
-    color: #f6e05e; /* Жълти икони при ховър */
+    color: #f6e05e;
 }
  
 .quick-link-card h3 {
     margin-bottom: 10px;
     font-size: 22px;
 }
+
+
  
 /* Региони и градове */
+
+
+
+
 .regions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -218,13 +232,13 @@ nav ul li a.active {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     transition: transform 0.3s;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .region-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(107, 70, 193, 0.2);
-    border-color: #f6e05e; /* Жълта рамка при ховър */
+    border-color: #f6e05e; 
 }
  
 .region-img {
@@ -238,15 +252,15 @@ nav ul li a.active {
 }
  
 .region-title {
-    color: #6b46c1; /* Лилав цвят за заглавия на карти */
+    color: #6b46c1; 
     margin-bottom: 10px;
     font-size: 22px;
-    border-left: 4px solid #f6e05e; /* Жълта лента отляво */
+    border-left: 4px solid #f6e05e; 
     padding-left: 10px;
 }
  
 .read-more {
-    color: #6b46c1; /* Лилав цвят */
+    color: #6b46c1; 
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
@@ -254,16 +268,22 @@ nav ul li a.active {
     transition: color 0.3s;
     padding: 5px 10px;
     border-radius: 4px;
-    background-color: #fef3c7; /* Светло жълт фон */
+    background-color: #fef3c7; 
 }
  
 .read-more:hover {
-    color: #553c9a; /* По-тъмно лилаво */
-    background-color: #f6e05e; /* По-наситено жълто */
+    color: #553c9a; 
+    background-color: #f6e05e; 
     text-decoration: none;
 }
- 
+
+
+
+
 /* Забележителности */
+
+
+
 .attractions-container {
     display: flex;
     flex-wrap: wrap;
@@ -278,11 +298,11 @@ nav ul li a.active {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     display: flex;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .attraction-card:hover {
-    border-color: #f6e05e; /* Жълта рамка при ховър */
+    border-color: #f6e05e; 
     box-shadow: 0 10px 25px rgba(107, 70, 193, 0.2);
 }
  
@@ -296,15 +316,22 @@ nav ul li a.active {
     padding: 20px;
     flex: 1;
 }
- 
-/* Страница "За нас" */
+
+
+
+
+/* Страница За нас */
+
+
+
+
 .about-section {
     background-color: white;
     border-radius: 8px;
     padding: 40px;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     margin-top: 30px;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .about-section h2 {
@@ -320,7 +347,7 @@ nav ul li a.active {
     align-items: center;
     margin: 30px 0;
     padding: 20px;
-    background-color: #faf5ff; /* Много светъл лилав фон */
+    background-color: #faf5ff; 
     border-radius: 8px;
 }
  
@@ -331,26 +358,31 @@ nav ul li a.active {
 }
  
 .contact-info {
-    background-color: #fef3c7; /* Светло жълт фон */
+    background-color: #fef3c7; 
     padding: 25px;
     border-radius: 8px;
     margin-top: 30px;
-    border-left: 6px solid #6b46c1; /* Лилава лента отляво */
+    border-left: 6px solid #6b46c1; 
 }
  
 .contact-info h3 {
     color: #6b46c1;
     margin-bottom: 15px;
 }
- 
+
+
+
 /* Население секция */
+
+
+
 .population-section {
     background-color: white;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     margin-top: 30px;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .population-info {
@@ -361,25 +393,30 @@ nav ul li a.active {
 }
  
 .population-item {
-    background-color: #faf5ff; /* Много светъл лилав фон */
+    background-color: #faf5ff; 
     padding: 20px;
     border-radius: 8px;
-    border-left: 4px solid #f6e05e; /* Жълта лента отляво */
+    border-left: 4px solid #f6e05e; 
 }
  
 .population-item:hover {
-    background-color: #fef3c7; /* Светло жълт фон при ховър */
+    background-color: #fef3c7; 
 }
  
 .population-item h4 {
     color: #6b46c1;
     margin-bottom: 10px;
 }
- 
+
+
+
 /* Бутони */
+
+
+
 .btn-primary {
     display: inline-block;
-    background-color: #6b46c1; /* Лилав фон */
+    background-color: #6b46c1; 
     color: white;
     padding: 12px 30px;
     border-radius: 5px;
@@ -393,20 +430,25 @@ nav ul li a.active {
 }
  
 .btn-primary:hover {
-    background-color: #553c9a; /* По-тъмно лилаво */
-    color: #f6e05e; /* Жълт текст */
-    border-color: #f6e05e; /* Жълта рамка */
+    background-color: #553c9a; 
+    color: #f6e05e; 
+    border-color: #f6e05e; 
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(107, 70, 193, 0.2);
 }
- 
+
+
+
 /* Футър */
+
+
+
 footer {
-    background-color: #6b46c1; /* Лилав фон */
+    background-color: #6b46c1; 
     color: white;
     padding: 40px 0 20px;
     margin-top: 60px;
-    border-top: 5px solid #f6e05e; /* Жълта горна линия */
+    border-top: 5px solid #f6e05e; 
 }
  
 .footer-content {
@@ -424,9 +466,9 @@ footer {
  
 .footer-section h3 {
     margin-bottom: 20px;
-    color: #f6e05e; /* Жълт цвят за заглавия */
+    color: #f6e05e;
     font-size: 20px;
-    border-bottom: 2px solid rgba(246, 224, 94, 0.3); /* Прозрачна жълта линия */
+    border-bottom: 2px solid rgba(246, 224, 94, 0.3); 
     padding-bottom: 10px;
 }
  
@@ -442,24 +484,24 @@ footer {
  
 .footer-links li i {
     margin-right: 8px;
-    color: #f6e05e; /* Жълти икони */
+    color: #f6e05e; 
 }
  
 .footer-links a {
-    color: #e9d8fd; /* Светъл лилав текст */
+    color: #e9d8fd; 
     text-decoration: none;
     transition: color 0.3s;
 }
  
 .footer-links a:hover {
-    color: #f6e05e; /* Жълт при ховър */
+    color: #f6e05e;
 }
  
 .copyright {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid #805ad5; /* По-светло лилаво */
-    color: #d6bcfa; /* Много светъл лилав текст */
+    border-top: 1px solid #805ad5; 
+    color: #d6bcfa; 
     font-size: 14px;
 }
  
@@ -470,14 +512,14 @@ footer {
     padding: 30px;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     margin-top: 30px;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .city-details h3 {
     color: #6b46c1;
     margin: 30px 0 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #f6e05e; /* Жълта долна линия */
+    border-bottom: 2px solid #f6e05e; 
 }
  
 .city-details h3:first-child {
@@ -491,7 +533,7 @@ footer {
     padding: 30px;
     box-shadow: 0 5px 15px rgba(107, 70, 193, 0.1);
     margin-top: 30px;
-    border: 1px solid #e9d8fd; /* Светла лилава рамка */
+    border: 1px solid #e9d8fd; 
 }
  
 .form-group {
@@ -502,21 +544,21 @@ footer {
     display: block;
     margin-bottom: 8px;
     font-weight: 600;
-    color: #6b46c1; /* Лилав цвят за labels */
+    color: #6b46c1; 
 }
  
 .form-control {
     width: 100%;
     padding: 12px;
-    border: 1px solid #d6bcfa; /* Светла лилава рамка */
+    border: 1px solid #d6bcfa; 
     border-radius: 5px;
     font-size: 16px;
-    background-color: #faf5ff; /* Много светъл лилав фон */
+    background-color: #faf5ff; 
 }
  
 .form-control:focus {
     outline: none;
-    border-color: #6b46c1; /* Лилава рамка при фокус */
+    border-color: #6b46c1; 
     box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.1);
 }
  
@@ -525,18 +567,26 @@ textarea.form-control {
     resize: vertical;
 }
  
-/* CSS за "активен линк" без JavaScript - използваме :target */
+
 :target {
-    scroll-margin-top: 80px; /* Отстъп за фиксираното меню */
+    scroll-margin-top: 80px; 
 }
  
-/* Стилове за показване на коя страница сме (без JavaScript) */
+
 .current-page {
     background-color: #553c9a !important;
     color: #f6e05e !important;
 }
- 
+
+
+
+
+
 /* Адаптивен дизайн */
+
+
+
+
 @media (max-width: 992px) {
     nav ul {
         flex-wrap: wrap;
@@ -568,4 +618,5 @@ textarea.form-control {
     }
     
    
+
  
