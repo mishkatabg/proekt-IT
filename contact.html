@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Област Велико Търново</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="images/images.png">
+    
+  
+</head>
+<body>
+    <!-- Хедър с навигация -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-landmark"></i>
+                <span>Област Велико Търново</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> За област Велико Търново</a></li>
+                    <li><a href="parks.html"><i class="fas fa-tree"></i> Природни паркове</a></li>
+                    <li><a href="attractions.html"><i class="fas fa-archway"></i> Забележителности</a></li>
+                    <li><a href="cities.html"><i class="fas fa-city"></i> Градове</a></li>
+                    <li><a href="population.html"><i class="fas fa-users"></i> Население</a></li>
+                    <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <!-- Херо секция -->
+    <section class="hero">
+        <div class="container">
+            <h1>Контакти</h1>
+            <p>Свържете се с нас за повече информация</p>
+        </div>
+    </section>
+ 
+    <!-- Основно съдържание -->
+    <main class="container">
+        <section class="content-section">
+            <h2 class="section-title">Свържете се с нас</h2>
+            
+            <div class="contact-form">
+                <h3>Изпратете ни съобщение</h3>
+                
+                <form id="contactForm" action="mailto:students@vt-region.bg" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Име и фамилия *</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Имейл адрес *</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <select id="subject" name="subject" class="form-control">
+                            <option value="">Изберете тема</option>
+                            <option value="info">Обща информация</option>
+                            <option value="tourism">Туристическа информация</option>
+                            <option value="project">По проект</option>
+                            <option value="other">Друго</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Съобщение *</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Изпрати съобщение</button>
+                </form>
+                
+                <!-- Съобщение, което се показва при фокус на формата (CSS only) -->
+                <div class="form-success">
+                    <p><i class="fas fa-info-circle"></i> <strong>Забележка:</strong> Този сайт е учебен проект. Формата ще отвори вашия имейл клиент. За да работи правилно, трябва да имате настроен имейл клиент на вашия компютър.</p>
+                </div>
+            </div>
+            
+            <div class="about-section" style="margin-top: 40px;">
+                <div class="students-info">
+                    <i class="fas fa-address-book"></i>
+                    <div>
+                        <h3>Контактна информация</h3>
+                        <p>За връзка можете да използвате следните контакти:</p>
+                        
+                        <div style="margin-top: 20px;">
+                            <p><strong><i class="fas fa-phone"></i> Телефон:</strong> +359 899 777 272</p>
+                            <p><strong><i class="fas fa-envelope"></i> Имейл:</strong> mihaillozanov07@gmail.com</p>
+                            <p><strong><i class="fas fa-envelope"></i> Ученически имейл:</strong> 2007-g-20@mg-babatonka.bg</p>
+                            <p><strong><i class="fas fa-map-marker-alt"></i> Адрес:</strong> Русе, България</p>
+                            <p><strong><i class="fas fa-school"></i> Училище:</strong> МГ "Баба Тонка", Русе</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info" style="margin-top: 30px;">
+                    <h3>Работно време</h3>
+                    <p><strong>Понеделник - Петък:</strong> 9:00 - 17:00</p>
+                    <p><strong>Събота:</strong> 10:00 - 14:00</p>
+                    <p><strong>Неделя:</strong> Почивен ден</p>
+                    <p style="margin-top: 15px;"><em>* Този сайт е ученически проект. Отговорите на съобщенията могат да забавят.</em></p>
+                </div>
+            </div>
+            
+            <div class="population-section" style="margin-top: 40px;">
+                <h3>Често задавани въпроси</h3>
+                
+                <div class="population-info">
+                    <div class="population-item">
+                        <h4>Колко време отнема отговор?</h4>
+                        <p>Опитваме се да отговорим на всички съобщения в рамките на 2 работни дни.</p>
+                    </div>
+                    
+                    <div class="population-item">
+                        <h4>Може ли да посетим проекта?</h4>
+                        <p>Да, можете да се свържете с нас за организация на среща в училището.</p>
+                    </div>
+                    
+                    <div class="population-item">
+                        <h4>Това официален ли е сайт?</h4>
+                        <p>Не, това е ученически учебен проект, а не официален сайт на областта.</p>
+                    </div>
+                    
+                    <div class="population-item">
+                        <h4>Имате ли социални мрежи?</h4>
+                        <p>В момента нямаме социални профили за този учебен проект.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+ 
+    <!-- Футър -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Област Велико Търново</h3>
+                    <p>Исторически и културен център на България с богато наследство и красива природа.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Бързи връзки</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Начало</a></li>
+                        <li><a href="parks.html">Природни паркове</a></li>
+                        <li><a href="attractions.html">Забележителности</a></li>
+                        <li><a href="cities.html">Градове</a></li>
+                        <li><a href="about.html">За нас</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +359 899 777 272</li>
+                        <li><i class="fas fa-envelope"></i> info@vt-region.bg</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Велико Търново, България</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Община Велико Търново - всички права запазени</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+ 
